@@ -60,7 +60,7 @@ class Homepage extends StatelessWidget {
                               ),
                               height: 50,
                               width: 50,
-                              child: const Icon(Icons.ac_unit_outlined,
+                              child: const Icon(Icons.dark_mode,
                                   color: Colors.white),
                             )),
                       ],
@@ -273,7 +273,7 @@ class Homepage extends StatelessWidget {
                                         spreadRadius: 1)
                                   ],
                                 ),
-                                child: const Icon(Icons.light,
+                                child: const Icon(Icons.light_mode,
                                     color: Colors.black))),
                       ],
                     ),

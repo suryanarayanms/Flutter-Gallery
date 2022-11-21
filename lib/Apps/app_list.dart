@@ -100,8 +100,8 @@ class AppTile extends StatelessWidget {
                           description,
                           style: GoogleFonts.notoSans(
                               color: Colors.white,
-                              // fontWeight: FontWeight.bold,
-                              fontSize: 15),
+                              fontWeight: FontWeight.bold,
+                              fontSize: 10),
                         ),
                       ),
                       (downloads != "")
@@ -239,8 +239,8 @@ class AppTile extends StatelessWidget {
                           description,
                           style: GoogleFonts.notoSans(
                               color: Colors.grey[700],
-                              // fontWeight: FontWeight.bold,
-                              fontSize: 15),
+                              fontWeight: FontWeight.bold,
+                              fontSize: 10),
                         ),
                       ),
                       (downloads != "")
