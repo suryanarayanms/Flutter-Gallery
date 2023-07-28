@@ -67,7 +67,6 @@ class Homepage extends StatelessWidget {
                     ),
                   ),
 
-                  //Carousel View
                   Expanded(child: Consumer<Apps>(
                     builder: (context, value, child) {
                       return CarouselSlider.builder(
@@ -104,7 +103,6 @@ class Homepage extends StatelessWidget {
                     padding: const EdgeInsets.only(
                         left: 20, bottom: 30.0, right: 20),
                     child: Container(
-                      // height: 50,
                       width: MediaQuery.of(context).size.width,
 
                       decoration: BoxDecoration(
@@ -131,7 +129,6 @@ class Homepage extends StatelessWidget {
                     padding: const EdgeInsets.only(
                         left: 20, bottom: 30.0, right: 20),
                     child: Container(
-                      // height: 50,
                       width: MediaQuery.of(context).size.width,
 
                       decoration: BoxDecoration(
@@ -205,27 +202,6 @@ class Homepage extends StatelessWidget {
                       ),
                     ),
                   ),
-
-                  //Grid view example
-                  // Expanded(
-                  //   child: Consumer<Apps>(builder: (context, value, child) {
-                  //     return GridView.builder(
-                  //         itemCount: value.apptile.length,
-                  //         gridDelegate:
-                  //             const SliverGridDelegateWithFixedCrossAxisCount(
-                  //                 crossAxisCount: 2),
-                  //         itemBuilder: ((context, index) {
-                  //           return AppTile(
-                  //             title: value.apptile[index][0],
-                  //             description: value.apptile[index][1],
-                  //             downloads: value.apptile[index][2],
-                  //             color: value.apptile[index][3],
-                  //             launchurl: value.apptile[index][4],
-                  //             // color: '',
-                  //           );
-                  //         }));
-                  //   }),
-                  // ),
                 ],
               ),
             ],
@@ -279,7 +255,6 @@ class Homepage extends StatelessWidget {
                     ),
                   ),
 
-                  //Carousel View
                   Expanded(child: Consumer<Apps>(
                     builder: (context, value, child) {
                       return CarouselSlider.builder(
@@ -316,7 +291,6 @@ class Homepage extends StatelessWidget {
                     padding: const EdgeInsets.only(
                         left: 20, bottom: 30.0, right: 20),
                     child: Container(
-                      // height: 50,
                       width: MediaQuery.of(context).size.width,
 
                       decoration: BoxDecoration(
@@ -353,7 +327,6 @@ class Homepage extends StatelessWidget {
                     padding: const EdgeInsets.only(
                         left: 20, bottom: 30.0, right: 20),
                     child: Container(
-                      // height: 50,
                       width: MediaQuery.of(context).size.width,
 
                       decoration: BoxDecoration(
@@ -437,26 +410,6 @@ class Homepage extends StatelessWidget {
                       ),
                     ),
                   )
-                  //Grid view example
-                  // Expanded(
-                  //   child: Consumer<Apps>(builder: (context, value, child) {
-                  //     return GridView.builder(
-                  //         itemCount: value.apptile.length,
-                  //         gridDelegate:
-                  //             const SliverGridDelegateWithFixedCrossAxisCount(
-                  //                 crossAxisCount: 2),
-                  //         itemBuilder: ((context, index) {
-                  //           return AppTile(
-                  //             title: value.apptile[index][0],
-                  //             description: value.apptile[index][1],
-                  //             downloads: value.apptile[index][2],
-                  //             color: value.apptile[index][3],
-                  //             launchurl: value.apptile[index][4],
-                  //             // color: '',
-                  //           );
-                  //         }));
-                  //   }),
-                  // ),
                 ],
               ),
             ],

@@ -67,7 +67,7 @@ class AppTile extends StatelessWidget {
                     ],
                   ),
                   const Spacer(),
-                  (downloads != "" && downloads != " ")
+                  (downloads != "" && downloads != " " && downloads != "  ")
                       ? Padding(
                           padding: const EdgeInsets.only(bottom: 25.0),
                           child: Row(
@@ -206,7 +206,7 @@ class AppTile extends StatelessWidget {
                     ],
                   ),
                   const Spacer(),
-                  (downloads != "" && downloads != " ")
+                  (downloads != "" && downloads != " " && downloads != "  ")
                       ? Padding(
                           padding: const EdgeInsets.only(bottom: 25.0),
                           child: Row(

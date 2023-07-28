@@ -14,9 +14,9 @@ class Apps extends ChangeNotifier {
     [
       "Stack Notes",
       "Organize task and remember stuff",
-      "10",
+      "  ",
       'lib/images/stack.jpg',
-      'https://play.google.com/store/apps/details?id=com.ceosurya.todoapp&gl=US',
+     'https://play.google.com/store/apps/details?id=com.ceosurya.todoapp&gl=US',
       'INSTALL',
       Colors.white
     ],
@@ -30,12 +30,12 @@ class Apps extends ChangeNotifier {
       Colors.white
     ],
     [
-      "Rant",
-      "Share your feelings",
-      " ",
-      'lib/images/rant.jpg',
-      '',
-      'COMING SOON',
+      "The Pet Project",
+      "Know him protect him",
+      "  ",
+      'lib/images/pet.png',
+      'https://play.google.com/store/apps/details?id=com.ceosurya.thepetproject&gl=US',
+      'INSTALL',
       Colors.white
     ],
   ];
