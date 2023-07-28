@@ -1,16 +1,10 @@
-# flutter_gallery
+# Flutter Gallery
 
-A new Flutter project.
+A simple portfoli kindof app made with flutter provider.
 
-## Getting Started
+# Features 
+- Neomorphism Theme 
+- Glassmorphism Theme
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+<img alt="Glassmorphism Theme" src="https://user-images.githubusercontent.com/88872217/204086997-58c0221e-0546-40cf-87c1-f9805b259f9b.png" width="25%"> <img alt="Neomorphism Theme" src="https://user-images.githubusercontent.com/88872217/204087000-5e2f78ca-140b-4441-aa4d-8242e056174c.png" width="25%">
